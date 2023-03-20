@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "OASIS: Outlining Assistant with Smart Intelligence System",
+  "description": "Uses ChatGPT to create outlines for any given prompt.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/gptimg.png",
+      "32": "images/gptimg.png",
+      "48": "images/gptimg.png",
+      "128": "images/gptimg128.png"
+    }
+  }
+}
